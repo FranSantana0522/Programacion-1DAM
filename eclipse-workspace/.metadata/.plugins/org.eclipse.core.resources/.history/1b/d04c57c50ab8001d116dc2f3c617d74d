@@ -1,0 +1,19 @@
+package packEjA14;
+
+import java.util.Scanner;
+
+public class Compra {
+	public int[] billetes= {500,200,100,50,20,10,5};
+	public double[] monedas= {2,1,0.50,0.20,0.10,0.05,0.02,0.01};
+	
+	Compra(){
+		
+	}
+	
+	public void compra() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Introduce importe de la compra: ");
+		double n=sc.nextDouble();
+	}
+	public void vuelta();
+}

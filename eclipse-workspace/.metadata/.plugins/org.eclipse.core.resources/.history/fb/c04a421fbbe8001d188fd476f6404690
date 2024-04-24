@@ -1,0 +1,18 @@
+package pack;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class Resuelta11_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try(ObjectOutputStream out=new ObjectOutputStream(new FileOutputStream("numeros.dat"))){
+			System.out.println("Introcue numeros: ");
+		}catch(IOException ex) {
+			System.out.println(ex.getMessage());
+		}
+	}
+
+}

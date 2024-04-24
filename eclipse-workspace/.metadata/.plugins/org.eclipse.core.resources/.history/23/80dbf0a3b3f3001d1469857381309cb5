@@ -1,0 +1,28 @@
+package resueltas;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Scanner;
+
+public class Resuelta12_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Collection<Integer> numeros=new ArrayList<>();
+		System.out.println("Introducir entero: ");
+		Integer n=new Scanner(System.in).nextInt();
+		while(n>=0) {
+			numeros.add(n);
+			System.out.println("Introducir entero: ");
+			n=new Scanner(System.in).nextInt();
+		}
+		System.out.println("Lista completa: "+numeros);
+		System.out.println("Pares: ");
+		for(Integer a : numeros) {
+			if(a%2=0) {
+				
+			}
+		}
+	}
+
+}

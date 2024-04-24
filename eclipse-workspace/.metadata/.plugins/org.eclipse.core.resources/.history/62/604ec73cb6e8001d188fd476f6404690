@@ -1,0 +1,16 @@
+package pack;
+
+import java.io.*;
+
+public class Resuelta11_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try (ObjectOutputStream out =new ObjectOutputStream(new FileOutputStream("datos.dat"))){
+			
+		}catch(IOException ex) {
+			System.out.println(ex.getMessage());
+		}
+	}
+
+}

@@ -1,0 +1,77 @@
+package pack;
+
+public class ChuletaBooleanos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// boolean equals
+		String cad1="Hola mundo";
+		String cad2="Hola mundo";
+		String cad3="HOLA MUNDO";
+		boolean iguales;
+		iguales=cad1.equals(cad2);//true
+		iguales=cad2.equals(cad3);//false
+		
+		//boolean equals ignora case
+		iguales=cad2.equalsIgnoreCase(cad3);//true
+		
+		//boolean regionMachters
+	}
+	// Para ver si es un numero
+	static boolean isDigit(char c) {
+		char c1	='8', c2='p';
+		boolean b;
+		b=Character.isDigit(c1);
+		b=Character.isDigit(c2);
+		return b;
+	}
+	// Para ver si es una letra
+	static boolean isLetter(char c) {
+		boolean b;
+		b=Character.isLetter('8');
+		b=Character.isLetter('e');
+		return b;
+	}
+	// Para ver si es una letra o digito
+	static boolean isLetterOrDigit(char c) {
+		boolean b;
+		b=Character.isLetterOrDigit('%');
+		b=Character.isLetterOrDigit('p');
+		b=Character.isLetterOrDigit('2');
+		return b;
+	}
+	// Para ver si esta en minusculas
+	static boolean isLowerCase(char c) {
+		boolean b;
+		char c1='q',c2='Q';
+		b=Character.isLowerCase('*');
+		b=Character.isLowerCase(c1);
+		b=Character.isLowerCase(c2);
+		return b;
+	}
+	// Para ver si esta en mayusculas
+	static boolean isUpperCase(char c) {
+		boolean b;
+		b=Character.isUpperCase('T');
+		b=Character.isUpperCase('t');
+		return b;
+	}
+	// Para ver si hay un espacio
+	static boolean isSpaceChar(char c) {
+		boolean b;
+		b=Character.isSpaceChar(' ');
+		b=Character.isSpaceChar('a');
+		return b;	
+	}
+	// Para ver si hay un espacio en blanco
+	static boolean isWhiteSpace(char c) {
+		boolean b;
+		c='\t';
+		b=Character.isWhitespace(c);
+		b=Character.isWhitespace('\n');
+		b=Character.isWhitespace('a');
+		return b;
+	}
+	
+}

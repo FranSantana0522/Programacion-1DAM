@@ -1,0 +1,64 @@
+package pack;
+
+public class ChuletaBooleanos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	// Para ver si es un numero
+	boolean isDigit(char c) {
+		char c1	='8', c2='p';
+		boolean b;
+		b=Character.isDigit(c1);
+		b=Character.isDigit(c2);
+		return b;
+	}
+	// Para ver si es una letra
+	boolean isLetter(char c) {
+		boolean b;
+		b=Character.isLetter('8');
+		b=Character.isLetter('e');
+		return b;
+	}
+	// Para ver si es una letra o digito
+	boolean isLetterOrDigit(char c) {
+		boolean b;
+		b=Character.isLetterOrDigit('%');
+		b=Character.isLetterOrDigit('p');
+		b=Character.isLetterOrDigit('2');
+		return b;
+	}
+	// Para ver si esta en minusculas
+	boolean isLowerCase(char c) {
+		boolean b;
+		char c1='q',c2='Q';
+		b=Character.isLowerCase('*');
+		b=Character.isLowerCase(c1);
+		b=Character.isLowerCase(c2);
+		return b;
+	}
+	// Para ver si esta en mayusculas
+	boolean isUpperCase(char c) {
+		boolean b;
+		b=Character.isUpperCase('T');
+		b=Character.isUpperCase('t');
+		return b;
+	}
+	// Para ver si hay un espacio
+	boolean isSpaceChar(char c) {
+		boolean b;
+		b=Character.isSpaceChar(' ');
+		b=Character.isSpaceChar('a');
+		return b;	
+	}
+	boolean isWhiteSpace(char c) {
+		boolean b;
+		c='\t';
+		b=Character.isWhitespace(c);
+		b=Character.isWhitespace('\n');
+		b=Character.isWhitespace('a');
+		return b;
+	}
+	
+}

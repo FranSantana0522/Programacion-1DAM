@@ -1,0 +1,21 @@
+package aplicacion10_21;
+
+import java.util.Arrays;
+
+public class Agenda {
+	public String [] agenda=new String[20];
+
+	public String[] getAgenda() {
+		return agenda;
+	}
+
+	public void setAgenda(String[] agenda) {
+		this.agenda = agenda;
+	}
+
+	@Override
+	public String toString() {
+		return "Agenda \n[\n" + Arrays.toString(agenda) + "]";
+	}
+	
+}

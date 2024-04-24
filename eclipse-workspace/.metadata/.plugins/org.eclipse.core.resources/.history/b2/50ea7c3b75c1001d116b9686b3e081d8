@@ -1,0 +1,11 @@
+package actividadesResueltas8_1;
+
+public class Hora {
+	protected int hora,minutos;
+
+	public Hora(int hora, int minutos) {
+		this.hora = 0;
+		this.minutos = 0;
+	}
+	
+}

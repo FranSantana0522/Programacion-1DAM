@@ -1,0 +1,12 @@
+package resueltas;
+
+import java.util.concurrent.ArrayBlockingQueue;
+
+public class Resuelta12_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List <Integer> lista=new ArrayList<>();
+	}
+
+}

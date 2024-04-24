@@ -1,0 +1,22 @@
+package pack;
+
+import java.util.Scanner;
+
+public class Actividad1_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int multiplo;
+		int entero;
+		int suma;
+		
+		System.out.println("Escribe un numero entero: ");
+		entero=sc.nextInt();
+		multiplo=entero/7;
+		suma=multiplo-7;
+		System.out.println("Para ser multiplo de 7 hay que sumar: " + suma);
+		
+	}
+
+}

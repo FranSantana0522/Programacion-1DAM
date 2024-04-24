@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.equinox.p2.category"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+			<item value="org.eclipse.debug.ui"/>
+			<item value="org.eclipse.team.ui.exportWizards"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="PreferencesExportWizard">
+	</section>
+	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/media/usuario/Francisco/Tema 9 Programacion/Tema 9 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 9 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 8 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 8 Programacion/Tema 8 Programacion"/>
+			<item value="/media/usuario/Francisco"/>
+			<item value="/media/usuario/Francisco/Tema 7 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 5 Programacion/Tema 6 Programacion/src"/>
+			<item value="/media/usuario/Francisco/Tema 5 Programacion/Tema 6 Programacion/src/pack"/>
+			<item value="/media/usuario/Francisco/Tema 5 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 5 Programacion/Tema 5 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 3 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 3 Programacion/Tema 3 Programacion/src/pack/Tema 3 Programacion/src/pack"/>
+			<item value="/media/usuario/Francisco/Tema 3 Programacion/Tema 3 Programacion/src/pack"/>
+			<item value="/media/usuario/Francisco/Tema 3 Programacion/Tema 3 Programacion"/>
+			<item value="/media/usuario/Francisco/Tema 2 Programacion/src/pack"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/home/usuario/Descargas/Tema 12 Programacion-20230526T062244Z-001/Tema 12 Programacion"/>
+			<item value="/home/usuario/Descargas/Tema 11 Programacion-20230512T062107Z-001/Tema 11 Programacion"/>
+			<item value="/home/usuario/Descargas/Tema 11 Programacion-20230509T061730Z-001/Tema 11 Programacion"/>
+			<item value="/home/usuario/Descargas/Tema 11 Programacion-20230505T082309Z-001/Tema 11 Programacion"/>
+			<item value="/home/usuario/Descargas/Proyecto figuras código para optimizar-20230412/Proyecto figuras"/>
+			<item value="/home/usuario/Descargas/Tema 9 Programacion-20230328T062400Z-001"/>
+		</list>
+	</section>
+	<section name="PreferencesImportWizard">
+	</section>
+</section>

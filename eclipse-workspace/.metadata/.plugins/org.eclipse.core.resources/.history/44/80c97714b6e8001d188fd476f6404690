@@ -1,0 +1,14 @@
+package pack;
+
+public class Resuelta11_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try (){
+			
+		}catch(IOException ex) {
+			
+		}
+	}
+
+}

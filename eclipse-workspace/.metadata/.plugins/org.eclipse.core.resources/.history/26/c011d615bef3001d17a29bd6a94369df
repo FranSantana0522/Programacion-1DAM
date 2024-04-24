@@ -1,0 +1,31 @@
+package resueltas;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Comparator;
+
+public class Resuelta12_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Collection <Integer> lista=new ArrayList<>();
+		for(int i=0;i<20;i++) {
+			lista.add((int)(Math.random()*10+1));
+		}
+		System.out.println(lista);
+		Integer [] tabla=lista.toArray(new Integer[0]);
+		Arrays.sort(tabla);
+		Collection<Integer> listaCre=new ArrayList<>();
+		listaCre.addAll(Arrays.asList(tabla));
+		System.out.println(listaCre);
+		Comparator<Integer>ordenDecre=new Comparator<>() {
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+		};
+	}
+
+}

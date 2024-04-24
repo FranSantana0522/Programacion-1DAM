@@ -1,0 +1,7 @@
+package aplicacion10_21;
+
+public class Contactos implements Comparable{
+	public String name;
+	public Integer tlf;
+	
+}

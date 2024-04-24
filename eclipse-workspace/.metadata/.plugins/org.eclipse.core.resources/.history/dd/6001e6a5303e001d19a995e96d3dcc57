@@ -1,0 +1,27 @@
+package pack;
+
+import java.util.Scanner;
+
+public class Actividad1_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int iva;
+		int baseImponible;
+		double total;
+		double ivaImponible;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Base imponible a pagar: ");
+		baseImponible=sc.nextInt();
+		System.out.println("Escriba el iva: ");
+		iva=sc.nextInt();
+		ivaImponible=iva/100*(baseImponible);
+		System.out.println("El iva a pagar es: " + ivaImponible);
+		total=ivaImponible + baseImponible;
+		System.out.println("El precio total es de: " + total);
+		
+		
+		
+	}
+
+}

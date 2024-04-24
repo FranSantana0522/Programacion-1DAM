@@ -1,0 +1,97 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ActividadDeAmpliacion2_14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		int numero, unidad, decena;
+		System.out.println("Indique un numero entre 1 y 99:");
+		numero=sc.nextInt();
+		decena=numero%10;
+		switch (numero) {
+		case 1 -> System.out.println("Uno");
+		case 2 -> System.out.println("Dos");
+		case 3 -> System.out.println("Tres");
+		case 4 -> System.out.println("Cuatro");
+		case 5 -> System.out.println("Cinco");
+		case 6 -> System.out.println("Seis");
+		case 7 -> System.out.println("Siete");
+		case 8 -> System.out.println("Ocho");
+		case 9 -> System.out.println("Nueve");
+		case 10 -> System.out.println("Diez");
+		case 11 -> System.out.println("Once");
+		case 12 -> System.out.println("Doce");
+		case 13 -> System.out.println("Trece");
+		case 14 -> System.out.println("Catorce");
+		case 15 -> System.out.println("Quince");
+		case 16 -> System.out.println("Dieciseis");
+		case 17 -> System.out.println("Diecisiete");
+		case 18 -> System.out.println("Dieciocho");
+		case 19 -> System.out.println("Diecinueve");
+		case 20 -> System.out.println("Veinte");
+		case 21 -> System.out.println("Ventiuno");
+		case 22 -> System.out.println("Veintidos");
+		case 23 -> System.out.println("Veintitres");
+		case 24 -> System.out.println("Veinticuatro");
+		case 25 -> System.out.println("Veinticinco");
+		case 26 -> System.out.println("Veintiseis");
+		case 27 -> System.out.println("Veintisiete");
+		case 28 -> System.out.println("Veintiocho");
+		case 29 -> System.out.println("Veintinueve");
+		default -> {
+			decena=numero/10;
+			switch (decena) {
+			case 3 :
+				 System.out.println("Treinta");
+				 break;
+			
+			case 4 :
+				System.out.println("Cuarenta");
+				break;
+			case 5 :
+				System.out.println("Cincuenta");
+				break;
+			case 6 :
+				System.out.println("Sesenta");
+				break;
+			case 7 :
+				System.out.println("Setenta");
+				break;
+			case 8 :
+				System.out.println("Ochenta");
+				break;
+			case 9 :
+				System.out.println("Noventa");
+				break;
+			}
+			if(numero%10==0) {
+				System.out.println("");
+			}else {
+				System.out.println(" y ");
+				unidad=numero%10;
+				switch(unidad) {
+				case 0 -> System.out.println("");
+				case 1 -> System.out.println("Uno");
+				case 2 -> System.out.println("Dos");
+				case 3 -> System.out.println("Tres");
+				case 4 -> System.out.println("Cuatro");
+				case 5 -> System.out.println("Cinco");
+				case 6 -> System.out.println("Seis");
+				case 7 -> System.out.println("Siete");
+				case 8 -> System.out.println("Ocho");
+				case 9 -> System.out.println("Nueve");
+				
+				}
+			}
+		}
+		
+		
+		
+		}
+		
+	}
+
+}

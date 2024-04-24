@@ -1,0 +1,39 @@
+package aplicacion10_21;
+
+import java.util.Arrays;
+
+public class Agenda {
+	public Contactos[] agenda = new Contactos[0];
+
+	public Agenda() {
+		this.agenda = new Contactos[0];
+	}
+
+	void insertarFinal(Object nuevo) {
+		agenda = Arrays.copyOf(agenda, agenda.length + 1);
+		agenda[agenda.length - 1] = (Contactos) nuevo;
+	}
+	 int buscar (Object claveBusqueda) {
+	        int indice = -1;
+	        for (int i = 0; i < agenda.length && indice == -1; i++) {
+	            if (agenda [i].equals (claveBusqueda)) {
+	            indice = i;
+	            }
+	        }
+	        return indice;
+	    }
+
+	public Contactos[] getAgenda() {
+		return agenda;
+	}
+
+	public void setAgenda(Contactos[] agenda) {
+		this.agenda = agenda;
+	}
+
+	@Override
+	public String toString() {
+		return "Agenda \n[\n" + Arrays.toString(agenda) + "]";
+	}
+
+}

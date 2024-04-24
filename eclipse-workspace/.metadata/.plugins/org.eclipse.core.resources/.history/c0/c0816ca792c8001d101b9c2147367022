@@ -1,0 +1,5 @@
+package actividadResuelta9_7;
+
+public class Socio implements Comparable{
+
+}

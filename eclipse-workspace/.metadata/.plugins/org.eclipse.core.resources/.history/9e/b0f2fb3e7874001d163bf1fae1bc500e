@@ -1,0 +1,15 @@
+package pack;
+
+public class ActividadesAplicacion5_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Introduce la clave: ");
+		int clave=sc.nextInt();
+	}
+
+	static int[] buscarTodos(int t[], int clave) {
+		
+	}
+}

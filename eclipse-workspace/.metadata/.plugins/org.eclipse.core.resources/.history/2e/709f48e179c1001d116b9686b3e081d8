@@ -1,0 +1,22 @@
+package actividadesResueltas8_1;
+
+public class HoraExacta extends Hora{
+	protected int segundos;
+
+	public HoraExacta(int hora, int minutos, int segundos) {
+		super(hora, minutos);
+		this.segundos = segundos;
+		if() {
+			
+		}
+	}
+
+	public int getSegundos() {
+		return segundos;
+	}
+
+	public boolean setSegundos(int segundos) {
+		this.segundos = segundos;
+	}
+	
+}

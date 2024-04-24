@@ -1,0 +1,24 @@
+package pack;
+
+import java.util.Scanner;
+
+public class BoletinMoodle6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int[] v = new int[100];
+		int longi = 100;
+		for (int i = 0; i < longi; i++) {
+			v[i] = (int) (Math.random() * 20);
+		}
+		for (int i = 0; i < 2; i++) {
+			System.out.println("Introduce dos valores: ");
+				v[i]=sc.nextInt();
+				
+			}
+			System.out.println();
+		}
+	}
+
+

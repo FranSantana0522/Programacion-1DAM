@@ -1,0 +1,16 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ActividadResuelta6_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		String nombre,sinVocales="";
+		char c;
+		System.out.println("Escriba su nombre completo: ");
+		nombre=sc.nextLine();
+	}
+
+}

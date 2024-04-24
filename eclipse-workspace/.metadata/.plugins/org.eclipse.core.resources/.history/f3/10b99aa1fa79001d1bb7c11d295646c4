@@ -1,0 +1,24 @@
+package pack;
+
+public class ActividadesAplicacion5_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mediaT1=0,mediaT2=0,mediaT3=0;
+		int mediaArit1=0,mediaArit2=0,mediaArit3=0,mediaArit4=0,mediaArit5=0;
+		int notas[]=new int [5];
+		int trimestre[]=new int[3];
+		for(int j=0;j<trimestre.length ;j++) {
+			for(int i=0;i<notas.length ;i++) {
+				System.out.println("Introduce las notas: ");
+				mediaT1=(+notas[i])/2;
+			}
+			
+		}
+		for(int k=0;k<notas.length;k++) {
+			mediaArit1=trimestre[];
+		}
+		mediaArit1=mediaArit1/3;
+	}
+
+}

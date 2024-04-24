@@ -1,0 +1,33 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ActividadRombo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int nfilas=5;
+		for(int filas=1;filas<=nfilas;filas++) {
+			for (int col=nfilas;col>filas;col--) {
+        		System.out.print(" ");
+        	}
+			for(int i=0; i<filas;i++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+        }
+	
+		for (int i=1;i>=nfilas;i++) {
+			for(int j=1;j<i;j++) {
+				System.out.print(" ");
+			}
+			for(int k=0;k<i;k++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		System.out.println();
+	}
+
+}

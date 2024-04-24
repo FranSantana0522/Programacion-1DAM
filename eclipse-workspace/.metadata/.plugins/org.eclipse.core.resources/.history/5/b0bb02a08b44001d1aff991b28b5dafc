@@ -1,0 +1,21 @@
+package pack;
+
+public class ActividadDeAmpliacion2_17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1;
+		int n2;
+		int suma;
+		n1=(int) (Math.random()*100);
+		System.out.println("El primer numero aleatorio es: " +n1);
+		n2=(int) (Math.random()*100);
+		System.out.println("El segundo numero aleatorio es: " +n2);
+		suma=n1+n2;
+		System.out.println("La suma de los dos numeros aleatorios es: " + suma);
+		
+		
+		
+	}
+
+}

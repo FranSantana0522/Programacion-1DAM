@@ -1,0 +1,4 @@
+Nombre			Edad			Peso			Altura
+Francisco			18			75.0			1.83
+Daniel			19			76.0			1.71
+Pablo			21			88.0			1.78

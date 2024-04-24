@@ -1,0 +1,14 @@
+package resueltas;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Resuelta12_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Collection<Integer> numeros=new ArrayList<>();
+		System.out.println("Introducir numeros:");
+	}
+
+}

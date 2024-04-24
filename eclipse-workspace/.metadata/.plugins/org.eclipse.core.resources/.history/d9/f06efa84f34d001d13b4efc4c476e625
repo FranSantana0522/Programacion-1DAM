@@ -1,0 +1,25 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ActividadAmpliacion3_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int fila;
+		
+		System.out.println("Introduzca un numero: ");
+		fila=sc.nextInt();
+		for(int i=0;i<=fila;i++) {
+			int nFactorial=1;
+			System.out.print((fila-i)*2);
+			for(int col=0;col<=i;col++) {
+				nFactorial= nFactorial * (i - col) / (col + 1);
+				System.out.print(nFactorial);
+			}
+			System.out.println(" ");
+		}
+	}
+	
+}

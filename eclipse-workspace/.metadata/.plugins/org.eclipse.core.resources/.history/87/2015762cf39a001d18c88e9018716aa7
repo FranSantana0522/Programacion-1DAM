@@ -1,0 +1,14 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ActividadResuelta6_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final String PREFIJO="Javalín, javalón";
+		final String SUFIJO="javalén, len, len";
+		Scanner sc=new Scanner(System.in);
+	}
+
+}

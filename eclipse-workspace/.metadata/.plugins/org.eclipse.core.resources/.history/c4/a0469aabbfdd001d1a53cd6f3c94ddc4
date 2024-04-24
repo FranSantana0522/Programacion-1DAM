@@ -1,0 +1,6 @@
+package aplicacion10_21;
+
+public class Agenda {
+	public String [] agenda;
+	
+}

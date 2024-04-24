@@ -1,0 +1,36 @@
+package pack;
+
+import java.util.Scanner;
+
+public class Actividad1_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final double PRECIO_MANZANA = 2.35;
+		final double PRECIO_PERA = 1.95;
+		int vManz1sem, vManz2sem;
+		int vPera1sem, vPera2sem;
+		double impTotal;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Para las manzanas");
+		System.out.print("Venta (kilos) del primer semestre:");
+		vManz1sem = sc.nextInt();
+		System.out.print("Venta (kilos) del segundo semestre:");
+		vManz2sem = sc.nextInt();
+		System.out.println("Para las peras");
+		System.out.print("Venta (kilos) del primer semestres:");
+		vPera1sem = sc.nextInt();
+		System.out.print("Venta (kilos) del segundo semestre:");
+		vPera2sem = sc.nextInt();
+		impTotal =(vManz1sem + vManz2sem) * PRECIO_MANZANA;
+		impTotal +=(vPera1sem + vPera2sem) * PRECIO_PERA;
+		System.out.println("El importe total es de:" + impTotal + "euros");
+		
+		
+		
+		
+		
+		
+	}
+
+}

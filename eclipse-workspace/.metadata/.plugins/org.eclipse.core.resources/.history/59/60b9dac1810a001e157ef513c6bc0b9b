@@ -1,0 +1,78 @@
+package matrices;
+
+import java.util.Scanner;
+
+public class Matrices {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Longitud matriz
+		Integer[][] matriz = new Integer[10][10];
+		// Rellanar matriz
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				matriz[i][j] = (int) (Math.random() * 10 - 1);
+			}
+		}
+		// Mostrar matriz
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; j++) {
+				System.out.print(matriz[i][j] + " ");
+			}
+			System.out.println();
+		}
+		
+		
+		//Multiplicar matricez
+		
+		Integer[][] matrizA = new Integer[3][3];
+		for (int i = 0; i < matrizA.length; i++) {
+			for (int j = 0; j < matrizA[i].length; j++) {
+				System.out.println("Introduce valores");
+				matrizA[i][j] = new Scanner(System.in).nextInt();
+			}
+		}
+		Integer[][] matrizB = new Integer[3][2];
+		for (int i = 0; i < matrizB.length; i++) {
+			for (int j = 0; j < matrizB[i].length; j++) {
+				System.out.println("Introduce valores");
+				matrizB[i][j] = new Scanner(System.in).nextInt();
+			}
+		}
+		Integer[][] producto = new Integer[matrizB.length][matrizB[0].length];
+		for (int a = 0; a < matrizB[0].length; a++) {
+			for (int i = 0; i < matrizA.length; i++) {
+				int suma = 0;
+				for (int j = 0; j < matrizA[0].length; j++) {
+					suma += matrizA[i][j] * matrizB[j][a];
+				}
+				producto[i][a] = suma;
+			}
+		}
+		System.out.println("Producto");
+		for (int i = 0; i < producto.length; i++) {
+			for (int j = 0; j < producto[0].length; j++) {
+				System.out.print(producto[i][j] + " ");
+			}
+			System.out.println();
+		}
+		
+		
+		//Matriz traspuesta
+		
+		Integer[][] matrizT = new Integer[producto[0].length][producto.length];
+		for (int x = 0; x < producto.length; x++) {
+			for (int y = 0; y < producto[x].length; y++) {
+				matrizT[y][x] = producto[x][y];
+			}
+		}
+		System.out.println("Matriz Traspuesta");
+		for (int i = 0; i < matrizT.length; i++) {
+			for (int j = 0; j < matrizT[0].length; j++) {
+				System.out.print(matrizT[i][j] + " ");
+			}
+			System.out.println();
+		}
+	}
+
+}

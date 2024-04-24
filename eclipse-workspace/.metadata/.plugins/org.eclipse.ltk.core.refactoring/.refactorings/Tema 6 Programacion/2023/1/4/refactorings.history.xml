@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pack.Booleanos&apos; to &apos;ChuletaBooleanos&apos;&#x0A;- Original project: &apos;Tema 6 Programacion&apos;&#x0A;- Original element: &apos;pack.Booleanos&apos;&#x0A;- Renamed element: &apos;pack.ChuletaBooleanos&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Booleanos&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;pack{Booleanos.java[Booleanos" matchStrategy="1" name="ChuletaBooleanos" qualified="false" references="true" similarDeclarations="false" stamp="1674635687797" textual="false" version="1.0"/>
+</session>

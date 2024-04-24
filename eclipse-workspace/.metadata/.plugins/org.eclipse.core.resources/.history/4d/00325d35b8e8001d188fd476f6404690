@@ -1,0 +1,15 @@
+package pack;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class Resuelta11_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try(ObjectInputStream in=new ObjectInputStream(new FileInputStream("datos.dat"))){
+			
+		}
+	}
+
+}

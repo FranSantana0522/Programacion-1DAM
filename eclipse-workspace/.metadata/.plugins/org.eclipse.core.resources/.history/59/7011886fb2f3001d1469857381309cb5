@@ -1,0 +1,10 @@
+package resueltas;
+
+public class Resuelta12_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pila12_3<Integer> p=new Contenedor12_3<>(new Integer[0]);
+	}
+
+}

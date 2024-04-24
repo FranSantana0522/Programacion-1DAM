@@ -1,0 +1,38 @@
+package packEjA13;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Colores {
+	public String[] colores={"Azul","Rojo","Verde","Amarillo","Naranja","Morado"
+			,"Gris","Negro","Blanco"};
+	Colores(String[] color){
+
+	}
+	public void lista() {
+		for(int i=0;i<colores.length;i++) {
+			System.out.println(colores[i]);
+		}
+	}
+	public String[] añadirColor() {
+		Scanner sc=new Scanner(System.in);
+		colores=Arrays.copyOf(colores, colores.length+1);
+		System.out.println("Introduce un color: ");
+		String color=sc.nextLine();
+		colores[colores.length-1]=color;
+		return colores;
+	}
+	public void generarLista() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Introduce numero de colores de la lista: ");
+		int n=sc.nextInt();
+		String[]aux=new String[n];
+		for(int i=0;i<aux.length;i++) {
+			do {
+				int a=(int)(Math.random()*colores.length-1);
+				aux[i]=colores[a];
+			}while(aux[aux.length]==colores[colores.length]);	
+			System.out.println(aux[i]);
+		}  
+	}
+}

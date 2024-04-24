@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Supercola.java&apos; to &apos;Tema 12 Programacion/src/aplicacion&apos;&#x0A;- Original project: &apos;Tema 9 Programacion&apos;&#x0A;- Destination element: &apos;Tema 12 Programacion/src/aplicacion&apos;&#x0A;- Original element: &apos;actividadAplicacion9_15.Supercola.java&apos;" description="Copy compilation unit" destination="=Tema 12 Programacion/src&lt;aplicacion" element1="/src&lt;actividadAplicacion9_15{Supercola.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1684914172929" units="1" version="1.0"/>
+</session>

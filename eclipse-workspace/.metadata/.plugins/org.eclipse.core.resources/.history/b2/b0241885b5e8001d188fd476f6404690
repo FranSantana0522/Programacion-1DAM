@@ -1,0 +1,13 @@
+package pack;
+
+public class Resuelta11_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String estrofa="Con diez cañones por banda, \n"
+				+ "viento en popa a toda vela, \n"
+				+ "no corta el mar, sino vuela \n"
+				+ "un velero bergantin.";
+	}
+
+}

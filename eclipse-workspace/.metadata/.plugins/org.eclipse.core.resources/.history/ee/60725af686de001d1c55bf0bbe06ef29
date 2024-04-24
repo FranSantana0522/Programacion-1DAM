@@ -1,0 +1,28 @@
+package aplicacion10_21;
+
+import java.util.Arrays;
+
+public class Agenda {
+	public Contactos [] agenda=new Contactos[20];
+
+	public Agenda(Contactos[] agenda) {
+		this.agenda = agenda;
+	}
+	   void insertarFinal (Object nuevo) {
+		    tabla = Arrays.copyOf (tabla, tabla.length + 1);
+		    tabla [tabla.length - 1] = nuevo;
+		    }
+	public Contactos[] getAgenda() {
+		return agenda;
+	}
+
+	public void setAgenda(Contactos[] agenda) {
+		this.agenda = agenda;
+	}
+
+	@Override
+	public String toString() {
+		return "Agenda \n[\n" + Arrays.toString(agenda) + "]";
+	}
+	
+}

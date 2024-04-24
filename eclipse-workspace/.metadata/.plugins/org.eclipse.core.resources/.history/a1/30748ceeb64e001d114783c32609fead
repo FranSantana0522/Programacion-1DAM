@@ -1,0 +1,20 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ActividadAmpliacion3_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Introduzca un numero de filas: ");
+		int nfilas = sc.nextInt();
+        for(int i=1;i<=nfilas;i++) {
+        	System.out.println(" * ");
+        	for (int j=1;j<=nfilas;j++) {
+               	System.out.println("  ");
+               	
+        		}
+        	}
+    }
+}

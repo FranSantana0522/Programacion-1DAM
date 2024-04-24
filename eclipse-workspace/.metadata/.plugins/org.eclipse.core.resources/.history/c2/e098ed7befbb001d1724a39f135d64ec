@@ -1,0 +1,14 @@
+package packEjA13;
+
+public class ActividadAmpliacion7_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Colores color=new Colores(args);
+		color.lista();
+		color.añadirColor();
+		color.lista();
+		color.generarLista();
+	}
+
+}

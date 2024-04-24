@@ -1,0 +1,11 @@
+package actividadResuelta9_7;
+
+public class Socio implements Comparable{
+	int id;
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

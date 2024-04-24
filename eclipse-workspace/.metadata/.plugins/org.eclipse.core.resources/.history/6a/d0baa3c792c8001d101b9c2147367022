@@ -1,0 +1,16 @@
+package actividadResuelta9_7;
+
+import java.time.LocalDate;
+
+public class Socio implements Comparable{
+	int id;
+	String nombre;
+	LocalDate fechaNacimiento;
+	
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

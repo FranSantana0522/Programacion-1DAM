@@ -1,0 +1,5 @@
+package actividadesResueltas8_1;
+
+public class HoraExacta extends Hora{
+	protected int segundos;
+}

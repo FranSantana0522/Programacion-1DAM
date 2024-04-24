@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pack.ActividadAplicacion6_13&apos; to &apos;ActividadesAplicacion6_13&apos;&#x0A;- Original project: &apos;Tema 6 Programacion&apos;&#x0A;- Original element: &apos;pack.ActividadAplicacion6_13&apos;&#x0A;- Renamed element: &apos;pack.ActividadesAplicacion6_13&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ActividadAplicacion6_13&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;pack{ActividadAplicacion6_13.java[ActividadAplicacion6_13" matchStrategy="1" name="ActividadesAplicacion6_13" qualified="false" references="true" similarDeclarations="false" stamp="1675416210114" textual="false" version="1.0"/>
+</session>

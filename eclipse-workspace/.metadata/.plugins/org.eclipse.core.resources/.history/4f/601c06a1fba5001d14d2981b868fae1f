@@ -1,0 +1,23 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ActividadesAplicacion6_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String frase;
+		System.out.println("Escribe una frase con comentarios (/*.....*/)");
+		frase = sc.next();
+		int comP, comF;
+		comP = frase.indexOf("/*");
+		comF = frase.indexOf("*/");
+
+		frase=frase.substring(0,comP)+frase.substring(comF);
+		System.out.println(frase);
+		        
+		sc.close();
+	}
+
+}

@@ -1,0 +1,20 @@
+package actividadResuelta9_7;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Socio s1=new Socio(3,"Fran","21-07-2004");
+		Socio s2=new Socio(2,"Fran","23-07-2004");
+		Socio s3=new Socio(1,"Lola","13-03-2002");
+		int r=s1.equals(s1.compareTo(s2));
+		System.out.println(r);
+		
+		
+		
+		System.out.println(s1.toString());
+		System.out.println(s2.toString());
+		System.out.println(s3.toString());
+	}
+
+}

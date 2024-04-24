@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_q7tbME4MEe2aXYOl1DQzVg" name="src" visibility="private">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_q84f4E4MEe2aXYOl1DQzVg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QFsD4GQZEe2sKofDLO2e8g" name="Hoteles" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nHtOAGQZEe2sKofDLO2e8g" name="Nombre" visibility="private" type="_reUhkGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nM86YGQZEe2sKofDLO2e8g" name="Direccion" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nWmloGQZEe2sKofDLO2e8g" name="Telefono" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nkfT0mQdEe2sKofDLO2e8g" name="habitacion" type="_TeJQoGQdEe2sKofDLO2e8g" association="_nkeswGQdEe2sKofDLO2e8g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_quLooGQdEe2sKofDLO2e8g" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RB0wIGWGEe2nw4RNcvbDYg" name="Codigo" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e5P3cGQcEe2sKofDLO2e8g" name="String" visibility="private"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_reUhkGQcEe2sKofDLO2e8g" name="String" visibility="private"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_21nxAGQcEe2sKofDLO2e8g" name="Integer" visibility="private"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TeJQoGQdEe2sKofDLO2e8g" name="Habitacion" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XXjLIGQdEe2sKofDLO2e8g" name="Numero de habitacion" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_X4fVAGQdEe2sKofDLO2e8g" name="Estado" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Z04wQGQdEe2sKofDLO2e8g" name="Numero de camas" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UGLEgmQeEe2sKofDLO2e8g" name="reserva" type="_yNO0IGQdEe2sKofDLO2e8g" association="_UGKdcGQeEe2sKofDLO2e8g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XwcW0GQeEe2sKofDLO2e8g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UGLEhGQeEe2sKofDLO2e8g" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nkeswGQdEe2sKofDLO2e8g" visibility="private" memberEnd="_nkfT0mQdEe2sKofDLO2e8g _nkfT1WQdEe2sKofDLO2e8g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nkfT0GQdEe2sKofDLO2e8g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nkfT0WQdEe2sKofDLO2e8g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nkfT1WQdEe2sKofDLO2e8g" name="hoteles" type="_QFsD4GQZEe2sKofDLO2e8g" association="_nkeswGQdEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yNO0IGQdEe2sKofDLO2e8g" name="Reserva" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8tnpsGQdEe2sKofDLO2e8g" name="Numero de la reserva" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FjLVIGQeEe2sKofDLO2e8g" name="Fecha de entrada" visibility="private" type="_uE20EGQeEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bydawWQeEe2sKofDLO2e8g" name="cliente" type="__Tm0gGQdEe2sKofDLO2e8g" association="_byczsGQeEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1UlKIGQeEe2sKofDLO2e8g" name="Fecha de salida" visibility="private" type="_uE20EGQeEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3kNDYGQeEe2sKofDLO2e8g" name="Numero de habitacion" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_32NZYGQeEe2sKofDLO2e8g" name="Numero de personas" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__Tm0gGQdEe2sKofDLO2e8g" name="Cliente" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FQkiMGQeEe2sKofDLO2e8g" name="Numero de cliente" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_G8KhUGQeEe2sKofDLO2e8g" name="Nombre" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HiHuEGQeEe2sKofDLO2e8g" name="Telefono" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_g2TvImQeEe2sKofDLO2e8g" name="factura" type="_BSMBEGQeEe2sKofDLO2e8g" association="_g2TIEGQeEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BSMBEGQeEe2sKofDLO2e8g" name="Factura" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IbVYkGQfEe2sKofDLO2e8g" name="Numero de la factura" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Kszr8GQfEe2sKofDLO2e8g" name="Fecha" visibility="private" type="_uE20EGQeEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LGtZsGQfEe2sKofDLO2e8g" name="Numero cliente" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_L4Vq8GQfEe2sKofDLO2e8g" name="Importe" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_M81N0GQfEe2sKofDLO2e8g" name="IVA" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UGKdcGQeEe2sKofDLO2e8g" name="Reservando" visibility="private" memberEnd="_UGLEgmQeEe2sKofDLO2e8g _UGLEhWQeEe2sKofDLO2e8g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UGLEgGQeEe2sKofDLO2e8g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UGLEgWQeEe2sKofDLO2e8g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UGLEhWQeEe2sKofDLO2e8g" name="habitacion" type="_TeJQoGQdEe2sKofDLO2e8g" association="_UGKdcGQeEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_byczsGQeEe2sKofDLO2e8g" name="Reserva" visibility="public" memberEnd="_bydawWQeEe2sKofDLO2e8g _bydaxGQeEe2sKofDLO2e8g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_byczsWQeEe2sKofDLO2e8g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bydawGQeEe2sKofDLO2e8g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bydaxGQeEe2sKofDLO2e8g" name="reserva" type="_yNO0IGQdEe2sKofDLO2e8g" association="_byczsGQeEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g2TIEGQeEe2sKofDLO2e8g" name="Facturando" visibility="private" memberEnd="_g2TvImQeEe2sKofDLO2e8g _g2TvJWQeEe2sKofDLO2e8g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g2TvIGQeEe2sKofDLO2e8g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g2TvIWQeEe2sKofDLO2e8g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g2TvJWQeEe2sKofDLO2e8g" name="cliente" type="__Tm0gGQdEe2sKofDLO2e8g" association="_g2TIEGQeEe2sKofDLO2e8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uE20EGQeEe2sKofDLO2e8g" name="Date" visibility="private"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_O3CiUGWAEe2nw4RNcvbDYg" name="Ins.Dep.Int" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WGfLkGWAEe2nw4RNcvbDYg" name="Nombre" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WoP00GWAEe2nw4RNcvbDYg" name="PPM" visibility="private" type="_jZnOgGWAEe2nw4RNcvbDYg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XFPS0GWAEe2nw4RNcvbDYg" name="Consumo" visibility="private" type="_jZnOgGWAEe2nw4RNcvbDYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jZnOgGWAEe2nw4RNcvbDYg" name="Double" visibility="private"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sL7YsGWAEe2nw4RNcvbDYg" name="Ins.Dep.Ext" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u9PpwGWAEe2nw4RNcvbDYg" name="Nombre" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vqfKQGWAEe2nw4RNcvbDYg" name="PPM" visibility="private" type="_jZnOgGWAEe2nw4RNcvbDYg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wHLGQGWAEe2nw4RNcvbDYg" name="Gasto" visibility="private" type="_jZnOgGWAEe2nw4RNcvbDYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Gu1PoGWBEe2nw4RNcvbDYg" name="Socio" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IZaiIGWBEe2nw4RNcvbDYg" name="Direccion" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IzoY8GWBEe2nw4RNcvbDYg" name="Ciudad" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JnwkkGWBEe2nw4RNcvbDYg" name="Provincia" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KDpPUGWBEe2nw4RNcvbDYg" name="Telefono" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Yl5-4GWBEe2nw4RNcvbDYg" name="Nombre" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZP4I8GWBEe2nw4RNcvbDYg" name="Cuota" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HSIpomWEEe2nw4RNcvbDYg" name="reserva" type="_mS4FMGWBEe2nw4RNcvbDYg" association="_HSICkGWEEe2nw4RNcvbDYg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HSIppGWEEe2nw4RNcvbDYg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_d7bSEGWBEe2nw4RNcvbDYg" name="Articulo" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gq4h8GWBEe2nw4RNcvbDYg" name="Nombre" visibility="private" type="_e5P3cGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-7HUUWWDEe2nw4RNcvbDYg" name="reserva" type="_mS4FMGWBEe2nw4RNcvbDYg" association="_-7GtQGWDEe2nw4RNcvbDYg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-7HUUmWDEe2nw4RNcvbDYg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-7HUU2WDEe2nw4RNcvbDYg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mS4FMGWBEe2nw4RNcvbDYg" name="Reserva" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qbti0GWBEe2nw4RNcvbDYg" name="Id reserva" visibility="private" type="_21nxAGQcEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Pl9y8GWCEe2nw4RNcvbDYg" name="Fecha" visibility="private" type="_uE20EGQeEe2sKofDLO2e8g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QXhLsGWCEe2nw4RNcvbDYg" name="Horario" visibility="private" type="_YCMYYGWCEe2nw4RNcvbDYg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Q6bEcGWCEe2nw4RNcvbDYg" name="Horario Fin" visibility="private" type="_YCMYYGWCEe2nw4RNcvbDYg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BIk08mWFEe2nw4RNcvbDYg" name="ins.dep.ext" type="_sL7YsGWAEe2nw4RNcvbDYg" association="_BIkN4GWFEe2nw4RNcvbDYg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JF4CsmWFEe2nw4RNcvbDYg" name="ins.dep.int" type="_O3CiUGWAEe2nw4RNcvbDYg" association="_JF3boGWFEe2nw4RNcvbDYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YCMYYGWCEe2nw4RNcvbDYg" name="Time" visibility="private"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-7GtQGWDEe2nw4RNcvbDYg" name="esReservada" visibility="private" memberEnd="_-7HUUWWDEe2nw4RNcvbDYg _-7HUVGWDEe2nw4RNcvbDYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-7GtQWWDEe2nw4RNcvbDYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-7HUUGWDEe2nw4RNcvbDYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-7HUVGWDEe2nw4RNcvbDYg" name="articulo" type="_d7bSEGWBEe2nw4RNcvbDYg" association="_-7GtQGWDEe2nw4RNcvbDYg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EZsc4GWEEe2nw4RNcvbDYg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZ208GWEEe2nw4RNcvbDYg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HSICkGWEEe2nw4RNcvbDYg" name="Realiza" visibility="private" memberEnd="_HSIpomWEEe2nw4RNcvbDYg _HSIppWWEEe2nw4RNcvbDYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HSIpoGWEEe2nw4RNcvbDYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HSIpoWWEEe2nw4RNcvbDYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HSIppWWEEe2nw4RNcvbDYg" name="socio" type="_Gu1PoGWBEe2nw4RNcvbDYg" association="_HSICkGWEEe2nw4RNcvbDYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BIkN4GWFEe2nw4RNcvbDYg" name="esReservada" visibility="private" memberEnd="_BIk08mWFEe2nw4RNcvbDYg _BIk09WWFEe2nw4RNcvbDYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIk08GWFEe2nw4RNcvbDYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIk08WWFEe2nw4RNcvbDYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BIk09WWFEe2nw4RNcvbDYg" name="reserva" type="_mS4FMGWBEe2nw4RNcvbDYg" association="_BIkN4GWFEe2nw4RNcvbDYg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H9xyMGWFEe2nw4RNcvbDYg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JF3boGWFEe2nw4RNcvbDYg" name="esReservada2" visibility="private" memberEnd="_JF4CsmWFEe2nw4RNcvbDYg _JF4CtWWFEe2nw4RNcvbDYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JF4CsGWFEe2nw4RNcvbDYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JF4CsWWFEe2nw4RNcvbDYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JF4CtWWFEe2nw4RNcvbDYg" name="reserva" type="_mS4FMGWBEe2nw4RNcvbDYg" association="_JF3boGWFEe2nw4RNcvbDYg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cPZRQGWFEe2nw4RNcvbDYg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yq55gGQbEe2sKofDLO2e8g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yq8VwGQbEe2sKofDLO2e8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
